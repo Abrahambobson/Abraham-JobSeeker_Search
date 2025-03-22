@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Seekers</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-100">
+    <header class="bg-blue-600 text-white p-4">
+        <h1 class="text-2xl">Job Seekers</h1>
+    </header>
+
+    <main class="p-4">
+        <section id="job-listings" class="mb-8">
+            <h2 class="text-xl mb-4">Job Listings</h2>
+            <div id="jobs" class="space-y-4">
+                <!-- Job listings will be dynamically inserted here -->
+            </div>
+        </section>
+
+        <section id="post-job" class="bg-white p-4 rounded shadow">
+            <h2 class="text-xl mb-4">Post a Job</h2>
+            <form id="job-form" class="space-y-4">
+                <input type="text" id="job-title" placeholder="Job Title" class="w-full p-2 border rounded">
+                <textarea id="job-description" placeholder="Job Description" class="w-full p-2 border rounded"></textarea>
+                <button type="submit" class="bg-blue-600 text-white p-2 rounded">Post Job</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body> h
+</html>

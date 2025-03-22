@@ -1,0 +1,8 @@
+### 6. .gitignore
+
+This file specifies which files and directories should be ignored by Git.
+
+```plaintext
+node_modules/
+dist/
+.DS_Store
